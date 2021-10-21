@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.joc{
+   padding: 20px;
+   
+}
+.join{
+    color: rgb(26, 209, 185);
+    font-weight: bold;
+}
+.day{
+    color: rgb(137, 201, 9);
+}
+.gainP{
+    color: rgb(187, 187, 187);
+}
+.gray{
+    color: rgb(209, 209, 209);
+}
+.doller{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.MonS{
+    padding: 20px;
+    background-color: rgb(85, 163, 153);
+    color: white;
+}
+.button{
+    font-size: 1.4rem;
+    background-color: rgb(169, 235, 37);
+    border-radius: 10px;
+    border: none;
+    width: 250px;
+    height: 50px;
+    color: white;
+}
+.Whyus{
+    padding: 20px;
+    background-color: rgb(93, 201, 186);
+    color: white;
+    
+}
+@media screen and (min-width:600px) {
+    .joc{
+        font-size: 1.5rem;
+    }
+    .Whyus{
+        font-size: 1.5rem;
+        display:none;
+    }
+}
+@media screen and (min-width:1024px){
+    .MonS{
+        
+        width: 50%;
+        height: 50vh;
+        float: left;
+        
+    }
+    .Whyus{
+        
+        width: 50%;
+        height: 50vh;
+        display: block;
+        float: right;
+        
+    }
+}
